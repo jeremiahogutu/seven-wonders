@@ -10,6 +10,11 @@ p{
 	font-family:Roboto:
 }
 
+section {
+	margin-bottom: 60px;
+	
+}
+
 .navbar-default {
 	background: #fff;
 	border:0;
@@ -22,39 +27,45 @@ p{
 	font-weight: bold;
 }
 
-#showcase h1 {
+.showcase h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
 }
 
-#showcase img{
+.showcase img{
 	width:90%;
-	margin-left: 60px;
+	// margin-left: 60px;
 }
 
-#showcase .showcase-right {
+.showcase .showcase-right {
 	margin-top: 30px;
 }
 
-#testimonial {
+.testimonial {
 	background: #f1f1f1;
 	padding: 50px 0 30px 0;
 	text-align: center;
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-#testimonial p {
+.testimonial p {
 	font-size: 32px;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #000;
 }
 
-#testimonial p.customer {
+.testimonial p.customer {
 	font-size: 20px;
 	color: #555;
 }
 
 footer {
-	
+
 	padding: 30px;
+}
+
+.row {
+	padding: 20px;
+	background-color: #F1F1F1;
 }
