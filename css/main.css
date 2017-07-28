@@ -1,6 +1,7 @@
 body {
 	margin-top: 70px;
 	background-color: #5f7c8a;
+	width:100%;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -30,6 +31,7 @@ section {
 	font-size: 20px;
 	color: #000 !important; 
 	font-weight: bold;
+	/*background: #555;*/
 }
 
 
@@ -70,7 +72,7 @@ section {
 
 footer {
 /*background-color: #fff;*/
-padding: 10px;
+	padding: 10px;
 }
 
 .row {
@@ -79,7 +81,7 @@ padding: 10px;
 	color: #757575;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 767px) {
 	.showcase img{
 		width:100%;
 	}
@@ -91,5 +93,50 @@ padding: 10px;
 
 	p {
 		font-size: 1em;
+	}
+
+	.navbar-collapse {
+        background: #555;
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    	color: #fff;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+    	color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /*background-color: #e7e7e7;*/
+    color: aqua;
+	}
+
+    navbar-default .navbar-nav>li>a:hover {
+    	color: #fff;
+    }
+
+    .navbar-default {
+	background-color: #555;
+	}
+
+
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+	}
+
+	.navbar-brand {
+	color: #FFF !important; 
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.showcase h1 {
+		font-size: 1.5em;
+	}
+
+	p {
+		font-size: 0.9em;
 	}
 }
