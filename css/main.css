@@ -8,7 +8,8 @@ h1,h2,h3,h4,h5,h6 {
 } 
 
 p{
-	font-family:Roboto:
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 
 section {
@@ -31,14 +32,17 @@ section {
 	font-weight: bold;
 }
 
+
+
 .showcase h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
+	color: #333;
 }
 
 .showcase img{
 	width:90%;
-	// margin-left: 60px;
+	/*margin-left: 60px;*/
 }
 
 .showcase .showcase-right {
@@ -65,8 +69,8 @@ section {
 }
 
 footer {
-
-	// padding: 10px;
+/*background-color: #fff;*/
+padding: 10px;
 }
 
 .row {
@@ -83,5 +87,9 @@ footer {
 	.showcase h1 {
 	font-size: 2em;
 	margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 1em;
 	}
 }
