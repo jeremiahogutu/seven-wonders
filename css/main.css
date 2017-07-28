@@ -183,12 +183,18 @@ footer {
     color: aqua;
 	}
 
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+		color: aqua;
+		background-color: #555;
+	}
+
     navbar-default .navbar-nav>li>a:hover {
     	color: #fff;
     }
 
     .navbar-default {
 	background-color: #555;
+	opacity: 0.98;
 	}
 
 
@@ -200,7 +206,7 @@ footer {
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background-color: #555; 
 	}
-	
+
 	.navbar-brand {
 	color: #FFF !important; 
 	}
