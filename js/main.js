@@ -20,3 +20,7 @@ window.sr = ScrollReveal();
 		origin: 'bottom',
 		// distance: '300px'
 	});
+	sr.reveal('.contact-form', {
+		duration: 2000,
+		origin: 'bottom'
+	});
