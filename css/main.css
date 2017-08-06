@@ -32,6 +32,7 @@ p{font-size:1em;}
 navbar-default .navbar-nav>li>a:hover{color:#fff;}
 .navbar-default{background-color:#555;opacity:0.98;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#FFF;}
+.navbar-default .navbar-toggle {border-color: #555;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color:#555;}
 .navbar-brand{color:#FFF !important;}
 .contact-form button.btn{width:45%;}
