@@ -16,7 +16,7 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.showcase-btn', {
 		duration: 2000,
-		delay: 1000,
+		delay: 500,
 		origin: 'bottom',
 		// distance: '300px'
 	});
