@@ -1,4 +1,4 @@
-body{margin-top:70px;background-color:#5f7c8a;width:100%;}
+body{margin-top:70px;background-color:#5f7c8a;width:100%; overflow-x: hidden;}
 h1,h2,h3,h4,h5,h6{font-family:Poppins;}
 p{font-family:'Roboto', sans-serif;font-size:20px;}
 section{margin-bottom:60px;}
